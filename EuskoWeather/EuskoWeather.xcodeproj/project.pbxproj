@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,8 @@
 		403CEC6925A8F011007549C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403CEC6825A8F011007549C3 /* ContentView.swift */; };
 		403CEC6B25A8F012007549C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 403CEC6A25A8F012007549C3 /* Assets.xcassets */; };
 		403CEC6E25A8F012007549C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 403CEC6D25A8F012007549C3 /* Preview Assets.xcassets */; };
+		40A3CA7025C4A8B900C10F61 /* EjemploJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A3CA6F25C4A8B900C10F61 /* EjemploJson.swift */; };
+		40A3CA7925C4AABB00C10F61 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A3CA7825C4AABB00C10F61 /* ViewModel.swift */; };
 		8116D34A0C9FB3C143341A01 /* Pods_EuskoWeather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AAB279DD716DCB69DDCA88 /* Pods_EuskoWeather.framework */; };
 /* End PBXBuildFile section */
 
@@ -22,6 +24,8 @@
 		403CEC6A25A8F012007549C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		403CEC6D25A8F012007549C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		403CEC6F25A8F012007549C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40A3CA6F25C4A8B900C10F61 /* EjemploJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjemploJson.swift; sourceTree = "<group>"; };
+		40A3CA7825C4AABB00C10F61 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		6E7C2D747BCB8A54FD6D74DD /* Pods-EuskoWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EuskoWeather.release.xcconfig"; path = "Target Support Files/Pods-EuskoWeather/Pods-EuskoWeather.release.xcconfig"; sourceTree = "<group>"; };
 		84AAB279DD716DCB69DDCA88 /* Pods_EuskoWeather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EuskoWeather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -42,6 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				403CEC6525A8F011007549C3 /* EuskoWeather */,
+				40A3CA6E25C4A89200C10F61 /* Ejemplos */,
 				403CEC6425A8F011007549C3 /* Products */,
 				41A1B01E3811F5B1EE98F317 /* Pods */,
 				B846687CBB37A6D9656ECC07 /* Frameworks */,
@@ -61,6 +66,7 @@
 			children = (
 				403CEC6625A8F011007549C3 /* EuskoWeatherApp.swift */,
 				403CEC6825A8F011007549C3 /* ContentView.swift */,
+				40A3CA7825C4AABB00C10F61 /* ViewModel.swift */,
 				403CEC6A25A8F012007549C3 /* Assets.xcassets */,
 				403CEC6F25A8F012007549C3 /* Info.plist */,
 				403CEC6C25A8F012007549C3 /* Preview Content */,
@@ -76,13 +82,20 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		40A3CA6E25C4A89200C10F61 /* Ejemplos */ = {
+			isa = PBXGroup;
+			children = (
+				40A3CA6F25C4A8B900C10F61 /* EjemploJson.swift */,
+			);
+			path = Ejemplos;
+			sourceTree = "<group>";
+		};
 		41A1B01E3811F5B1EE98F317 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				3A58724E3700B276CD2F3FD3 /* Pods-EuskoWeather.debug.xcconfig */,
 				6E7C2D747BCB8A54FD6D74DD /* Pods-EuskoWeather.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -207,7 +220,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40A3CA7025C4A8B900C10F61 /* EjemploJson.swift in Sources */,
 				403CEC6925A8F011007549C3 /* ContentView.swift in Sources */,
+				40A3CA7925C4AABB00C10F61 /* ViewModel.swift in Sources */,
 				403CEC6725A8F011007549C3 /* EuskoWeatherApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
